@@ -1,0 +1,37 @@
+@import "../_utils/variables.scss";
+
+@mixin media-tablet {
+
+    @media (min-width: $mediaWidthTablet) {
+        @content;
+    }
+}
+
+@mixin media-tablet-horizontal {
+
+    @media (min-width: $mediaWidthTabletHorizontal) {
+        @content;
+    }
+}
+
+@mixin media-laptop {
+
+    @media (min-width: $mediaWidthLaptop) {
+        @content;
+    }
+}
+
+@mixin media-custom($width) {
+
+    @media (min-width: $width) {
+        @content;
+    }
+}
+
+//-----MY
+@mixin media-custom-01 {
+
+    @media (min-width: 767px) and (max-width: 1199.98px) {
+        @content;
+    }
+}

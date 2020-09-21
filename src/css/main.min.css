@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("../fonts/latoregular.eot?") format("eot"), url("../fonts/latoregular.woff2") format("woff2"), url("../fonts/latoregular.woff") format("woff"), url("../fonts/latoregular.ttf") format("truetype"), url("../fonts/latoregular.svg#Lato-Regular") format("svg");
+}
+
+@font-face {
+  font-family: "Lato-Black";
+  src: url("../fonts/latoblack.eot?") format("eot"), url("../fonts/latoblack.woff2") format("woff2"), url("../fonts/latoblack.woff") format("woff"), url("../fonts/latoblack.ttf") format("truetype"), url("../fonts/latoblack.svg#Lato-Black") format("svg");
+}
+
+@font-face {
+  font-family: "Montserrat-Black";
+  src: url("../fonts/Montserrat-Black.eot?") format("eot"), url("../fonts/Montserrat-Black.woff2") format("woff2"), url("../fonts/Montserrat-Black.woff") format("woff"), url("../fonts/Montserrat-Black.ttf") format("truetype"), url("../fonts/Montserrat-Black.svg#Montserrat-Black") format("svg");
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/Montserrat-Bold.eot?") format("eot"), url("../fonts/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat-Bold.ttf") format("truetype"), url("../fonts/Montserrat-Bold.svg#Montserrat-Bold") format("svg");
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  font-family: Lato-Regular;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat-Bold;
+  margin: 0;
+}
+
+h1, .h1 {
+  font-size: 2.5rem;
+}
+
+h2, .h2 {
+  font-size: 2rem;
+}
+
+h3, .h3 {
+  font-size: 1.75rem;
+}
+
+h4, .h4 {
+  font-size: 1.5rem;
+}
+
+h5, .h5 {
+  font-size: 1.25rem;
+}
+
+h6, .h6 {
+  font-size: 1rem;
+}
+
+small, .text_small {
+  font-size: 0.8em;
+}
+
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.containers {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header .wrapper {
+  background-color: #ff4d4d;
+}
+
+@media (min-width: 767px) and (max-width: 1199.98px) {
+  .header .containers {
+    width: 100%;
+  }
+}
+
+.box {
+  height: 300px;
+}
+
+@media (min-width: 767px) and (max-width: 1199.98px) {
+  .box {
+    background-color: #ff4da6;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1199.98px) {
+  body {
+    background-color: #4d4dff;
+  }
+}
+
+@media (max-width: 767.98px) {
+  body {
+    background-color: #cc3399;
+  }
+}
