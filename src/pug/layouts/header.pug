@@ -3,4 +3,47 @@
         .headerLogo
 .container-fluid.navColor
     .container
-        nav.navbar
+        header#header.fixed-top
+            .container.d-flex.align-items-center
+                h1.logo.mr-auto
+                    a(href='index.html') Arsha
+                // Uncomment below if you prefer to use an image logo
+                // <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+                nav.nav-menu.d-none.d-lg-block
+                    ul
+                        li.active
+                            a(href='index.html') Home
+                        li
+                            a(href='#about') About
+                        li
+                            a(href='#services') Services
+                        li
+                            a(href='#portfolio') Portfolio
+                        li
+                            a(href='#team') Team
+                        li.drop-down
+                            a(href='') Drop Down
+                            ul
+                                li
+                                    a(href='#') Drop Down 1
+                                li.drop-down
+                                    a(href='#') Deep Drop Down
+                                    ul
+                                        li
+                                            a(href='#') Deep Drop Down 1
+                                        li
+                                            a(href='#') Deep Drop Down 2
+                                        li
+                                            a(href='#') Deep Drop Down 3
+                                        li
+                                            a(href='#') Deep Drop Down 4
+                                        li
+                                            a(href='#') Deep Drop Down 5
+                                li
+                                    a(href='#') Drop Down 2
+                                li
+                                    a(href='#') Drop Down 3
+                                li
+                                    a(href='#') Drop Down 4
+                        li
+                            a(href='#contact') Contact
