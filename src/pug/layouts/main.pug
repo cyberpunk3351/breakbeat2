@@ -6,6 +6,8 @@ html(lang="ru")
             title Morg
             meta(content="width=device-width, initial-scale=1" name="viewport")
             meta(content="ie=edge" http-equiv="x-ua-compatible")
+            link(rel="stylesheet" href="css/bootstrap.min.css")
+            link(rel="stylesheet" href="css/font-awesome.min.css")
             link(rel="stylesheet" href="css/main.min.css")
     body
         block header
@@ -14,4 +16,6 @@ html(lang="ru")
         block footer
             include footer
         block scripts
-            script(src='/main.js')
+            script(src='js/jquery.min.js', charset='utf-8')
+            script(src='js/popper.min.js', charset='utf-8')
+            script(src='js/bootstrap.min.js', charset='utf-8')

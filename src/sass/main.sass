@@ -1,7 +1,6 @@
-@import "../../node_modules/bootstrap/scss/bootstrap.scss"
 @import '_mixins/fonts.scss'
 @import "_mixins/media.scss"
-@import "color";
+@import "color"
 
 @include font-face(Lato-Regular, "../fonts/latoregular")
 @include font-face(Lato-Black, "../fonts/latoblack")
@@ -20,7 +19,7 @@ $black-font: Lato-Black
 html
     font-size: 16px
 
-body 
+body
     padding: 0
     margin: 0
     min-height: 100vh
@@ -30,22 +29,22 @@ body
     line-height: 1.5
 
 
-h1, h2, h3, h4, h5, h6 
+h1, h2, h3, h4, h5, h6
     font-family: $montserratbold-font
 
-@import "header";
+@import "header"
 // @import '../pug/modules/02-slider/slider'
 // @import '../pug/modules/03-tri-bloka/tri-bloka'
 // @import '../pug/modules/04-about/about'
 // @import '../pug/modules/05-portfolio/portfolio'
 // @import '../pug/modules/06-contact/contact'
-@import "footer";
+@import "footer"
 
 
 @media (min-width: 767px) and (max-width: 1199.98px)
-    body 
+    body
         background-color: #4d4dff
 
 @media (max-width: 767.98px)
-    body 
+    body
         background-color: #cc3399
